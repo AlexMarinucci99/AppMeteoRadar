@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Regole per il backup completo (Auto Backup).
+   Questo file definisce quali file e cartelle devono essere inclusi o esclusi
+   durante il backup automatico dei dati dell'app su Android.
+
+   Nota: Questo file viene utilizzato per dispositivi con versioni precedenti ad Android 12 (API 31).
+   Per Android 12 e versioni successive, consultare 'data_extraction_rules.xml'.
+
+   Riferimento: https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <!--
+       Esempi di utilizzo:
+       <include domain="sharedpref" path="."/>  -> Include tutte le preferenze condivise
+       <exclude domain="sharedpref" path="device.xml"/> -> Esclude un file specifico
+    -->
+</full-backup-content>

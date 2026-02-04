@@ -1,0 +1,19 @@
+<resources>
+    <!--
+        Definizione del tema principale dell'applicazione.
+        Eredita da 'Theme.Material3.DayNight.NoActionBar' per supportare
+        automaticamente il tema chiaro/scuro e rimuovere la barra delle azioni predefinita.
+    -->
+    <style name="Theme.MeteoRadar" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Imposta la barra di stato come trasparente per permettere al layout di estendersi sotto di essa -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--
+            Disabilita le icone chiare nella barra di stato (rende le icone bianche).
+            Utile se l'app utilizza sfondi scuri o immagini che arrivano fino al bordo superiore.
+        -->
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+</resources>

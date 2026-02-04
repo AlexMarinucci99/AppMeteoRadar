@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Colore di sfondo per l'icona di avvio dell'applicazione (launcher icon).
+        Questo colore viene visualizzato dietro l'icona principale, specialmente
+        sui dispositivi Android che utilizzano icone adattive.
+    -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- Nome dell'applicazione visualizzato nel launcher e nella barra del titolo -->
+    <string name="app_name">MeteoRadar</string>
+</resources>

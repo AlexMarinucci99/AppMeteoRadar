@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   File delle regole di estrazione dei dati.
+   Definisce quali dati dell'app devono essere inclusi o esclusi durante il backup e il ripristino.
+   Vedere https://developer.android.com/about/versions/12/backup-restore#xml-changes per i dettagli.
+-->
+<data-extraction-rules>
+    <!-- Configurazione per il backup sul cloud (es. Google Drive) -->
+    <cloud-backup>
+        <!-- TODO: Usa <include> e <exclude> per controllare i contenuti del backup.
+        <include .../>
+        <exclude .../>
+        -->
+    </cloud-backup>
+
+    <!-- Configurazione per il trasferimento diretto tra dispositivi (es. migrazione su un nuovo telefono) -->
+    <device-transfer>
+        <!-- TODO: Usa <include> e <exclude> per controllare i contenuti del trasferimento.
+        <include .../>
+        <exclude .../>
+        -->
+    </device-transfer>
+</data-extraction-rules>
