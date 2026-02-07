@@ -16,7 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MeteoRadar">
-        <!-- Google Maps API key: usiamo string@google_maps_key -->
+        
+        <!--
+            Chiave API di Google Maps.
+            Viene caricata in modo sicuro dal file 'local.properties' (escluso da Git)
+            tramite il Secrets Gradle Plugin.
+        -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${maps_api_key}"/>
